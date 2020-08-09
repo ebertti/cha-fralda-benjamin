@@ -12,7 +12,7 @@
       <v-container class="pa-4 pa-md-0">
         <v-row>
           <v-col md="4">
-            <v-img class="rounded-lg elevation-3" src="photo_2020-08-08_20-38-29.jpg" max-width="100%"></v-img>
+            <v-img class="rounded-lg elevation-3" src="photo_2020-08-09_01-20-54.jpg" max-width="100%"></v-img>
           </v-col>
           <v-col md="8">
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
