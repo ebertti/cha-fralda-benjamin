@@ -18,26 +18,31 @@ export default new Vuetify({
     },
     themes: {
       light: {
-        primary: '#BDFFBD',
-        secondary: '#C9DCFF',
-        accent: '#8c9eff',
-        error: '#b71c1c',
-
-        background: '#000000',
-
-        principal: '#FFD5E9',
-
-        analogoA: '#fae5e1',
-        analogoB: '#E8B8B7',
-        analogoD: '#E8B7E7',
-        analogoD_escuro: '#695269',
-        analogoE: '#F1C9FF',
-
-        quadradoA: '#FFBDDD',
-        quadradoB: '#FFEABD',
-        quadradoD: '#BDFFBD',
-        quadradoE: '#C9DCFF',
-
+        primary: '#FFACD3',
+        texto: '#ab738d',
+        texto2: '#7f757a',
+        secondary: '#EAAFFF',
+        accent: '#FFB5AC',
+        error: '#DEFFAC',
+        
+        primaryC : "#FFEBF5",
+        primaryD : "#FF7BB9",
+        primaryE : "#FE4EA1",
+        
+        secondaryA : "#EAAFFF",	/* Main Secondary color (1) */
+        secondaryC : "#FAECFF",
+        secondaryD : "#DE80FF",
+        secondaryE : "#D154FD",
+        
+        secondary2A : "#FFB5AC",	/* Main Secondary color (2) */
+        secondary2C : "#FFEEEB",
+        secondary2D : "#FF8A7B",
+        secondary2E : "#FF634E",
+        
+        complementA : "#DEFFAC",	/* Main Complement color */
+        complementC : "#F7FFEB",
+        complementD : "#CBFF7B",
+        complementE : "#B9FF4E",
       },
     },
   },

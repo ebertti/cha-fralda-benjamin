@@ -4,6 +4,9 @@ import vuetify from './plugins/vuetify';
 
 Vue.config.productionTip = false
 
+Vue.filter('moeda', (x) => x.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+
 new Vue({
   vuetify,
   render: h => h(App)
