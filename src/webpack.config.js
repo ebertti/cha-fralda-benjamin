@@ -1,4 +1,12 @@
 module.exports = {
+  chainWebpack: config => {
+    config
+      .plugin('html')
+      .tap(args => {
+        args[0].title = 'Chá de Fraldas da Maria Eduarda'
+        return args
+      })
+  },
   rules: [
     {
       test: /\.s(c|a)ss$/,
@@ -20,3 +28,5 @@ module.exports = {
     },
   ],
 }
+
+

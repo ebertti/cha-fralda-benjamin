@@ -2,14 +2,17 @@
   <v-app>
     <v-app-bar app color="primary" elevation="1" fixed>
       <v-container>
-        <v-toolbar-title class="texto--text">Bem Vindos ao Chá da Maria Eduarda!</v-toolbar-title>
+        <v-toolbar-title class="mx-n2">
+          <v-icon class="mr-2">mdi-heart-outline</v-icon>
+          Chá de Fraldas da Maria Eduarda
+        </v-toolbar-title>
       </v-container>
     </v-app-bar>
     <v-main class="primaryC">
       <v-container class="pa-4 pa-md-0">
         <v-row>
           <v-col md="4">
-            <v-img src="photo_2020-08-08_20-38-29.jpg" class="col-12"></v-img>
+            <v-img class="rounded-lg elevation-3" src="photo_2020-08-08_20-38-29.jpg" max-width="100%"></v-img>
           </v-col>
           <v-col md="8">
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
@@ -26,16 +29,17 @@
             <p>Agradecemos o carinho de coração</p>
 
             <p class="text-right font-italic">Amanda, João Pedro e Maria Eduarda</p>
-
           </v-col>
-
         </v-row>
-        <div class="secondaryC" style="margin: -20px;padding: 20px;">
+        <div class="secondaryC" style="margin: -16px; margin-top:10px; padding: 20px;">
           <v-row>
             <v-col cols="12">
-              <h2 class="secondary2E--text text-center">
-                Lojinha da Maria Eduarda
-              </h2>
+              <v-alert icon="mdi-human-baby-changing-table" color="primary">
+                <h3>
+                  Lojinha da Maria Eduarda
+                </h3>
+                <span>COM FRETE GRÁTIS!</span>
+              </v-alert>
             </v-col>
             <v-col md="4" v-for="presente in presentes" :key="presente.nome">
               <presente :presente="presente"></presente>
@@ -47,18 +51,34 @@
           </v-btn>
         </div>
 
-        <v-row>
+        <v-row class="mt-10">
           <v-col block>
-            <h3 class="secondary2E--text text-center my-4">Outras lojas</h3>
-            <v-btn block color="quadradoC text--primary" class="mb-4">
-              Amazon
-            </v-btn>
-            <v-btn block color="quadradoA text--primary" class="mb-4">
-              Americanas
-            </v-btn>
-            <v-btn block color="quadradoE text--primary" class="mb-4">
-              Magazine Luiza
-            </v-btn>
+            <v-alert icon="mdi-help-circle" color="primary">
+              <h3>
+                Dúvidas
+              </h3>
+            </v-alert>
+            <h2 class="secondary2E--text text-center my-4"></h2>
+            <p>
+              <span class="font-weight-bold d-block">
+                Preciso ter PicPay para comprar na Lojinha da Maria Eduarda?
+              </span>
+              Sim. Caso não tenha, clique aqui e siga o passo a passo.
+              Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
+            </p>
+            <p>
+              <span class="font-weight-bold d-block">
+                Tem lista de presentes em sites conhecidos?
+              </span>
+              Sim. Fizemos listas na Amazon (clique aqui) e na Americanas (clique aqui).
+            </p>
+            <p>
+              <span class="font-weight-bold d-block">
+                Quero enviar os presentes direto para vocês. Como faço?
+              </span>
+              Pode deixar aqui em casa 🙂
+              Envie uma mensagem <a href="https://bit.ly/33Txbhx" target="_blank">(clique aqui)</a>  e passamos os detalhes.
+            </p>
           </v-col>
         </v-row>
       </v-container>
@@ -94,13 +114,13 @@ export default {
     total() {
       return this.presentes.reduce((a, i) => a + (i.qtd * i.valor), 0)
     },
-    linkPicpay(){
+    linkPicpay() {
       return `https://picpay.me/jpedrojpedro/${this.total}`
     }
   },
 
   methods: {
-    limparCarrinho(){
+    limparCarrinho() {
       this.presentes.forEach((i) => i.qtd = 0)
     }
   }
