@@ -77,7 +77,8 @@
                 Quero enviar os presentes direto para vocês. Como faço?
               </span>
               Pode deixar aqui em casa 🙂
-              Envie uma mensagem <a href="https://bit.ly/33Txbhx" target="_blank">(clique aqui)</a>  e passamos os detalhes.
+              Envie uma mensagem <a href="https://bit.ly/33Txbhx" target="_blank">(clique aqui)</a> e passamos os
+              detalhes.
             </p>
           </v-col>
         </v-row>
@@ -87,8 +88,7 @@
       <span class="font-weight-black">{{ total | moeda }}</span>
       <v-spacer></v-spacer>
       <div>
-        <span>pagar com</span>
-        <v-btn class="mx-4" color="secondaryE" :href="linkPicpay">Picpay</v-btn>
+        <v-btn class="mx-4" color="secondaryE" :href="linkPicpay">pagar com Picpay</v-btn>
       </div>
     </v-footer>
   </v-app>
@@ -104,9 +104,10 @@ export default {
   },
   data: () => ({
     presentes: [
-      {nome: 'Fraldas', icone: 'fralda.jpg', qtd: 0, valor: 35},
+      {nome: 'Fraldas', icone: 'fralda.jpg', qtd: 0, valor: 50},
       {nome: 'Lenços', icone: 'lenco.jpg', qtd: 0, valor: 12},
-      {nome: 'Pomada', icone: 'pomada.jpg', qtd: 0, valor: 5},
+     // {nome: 'Pomada', icone: 'pomada.jpg', qtd: 0, valor: 35},
+      {nome: 'Sabonete Líquido', icone: 'sabonete.jpg', qtd: 0, valor: 10},
     ],
   }),
 
