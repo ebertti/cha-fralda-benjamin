@@ -12,23 +12,29 @@
       <v-container class="pa-4 pa-md-0">
         <v-row>
           <v-col md="4">
-            <v-img class="rounded-lg elevation-3" src="photo_2020-08-09_01-20-54.jpg" max-width="100%"></v-img>
+            <v-img class="rounded-lg elevation-3" src="photo_2020-08-16_19.16.13.jpg" max-width="100%"></v-img>
           </v-col>
           <v-col md="8">
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
-            <p>Essa longa quarentena pegou todos de surpresa, fazendo com que tivéssemos que nos adaptar e nos
-              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia.</p>
-            <p>Gostaríamos muito de receber todos em uma festinha e celebrar esse momento tão lindo, mas com tudo o
-              que
-              está acontecendo no mundo, isso não será possível, e a nossa festinha precisou ser cancelada.</p>
+            <p>
+              Essa longa quarentena pegou todos de surpresa, fazendo com que tivéssemos que nos adaptar e nos
+              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia.
+            </p>
+            <p>
+              Gostaríamos muito de receber todos para celebração desse momento tão lindo! Porém, com tudo o
+              que está acontecendo, isso não será possível e a nossa festinha precisou ser cancelada. Com isso,
+              pensamos em criar esse site para interagir com nossos amigos e familiares.
+            </p>
+            <p>
+              Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos
+              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na lojinha da
+              Maria Eduarda, utilizará o PicPay para realizar o pagamento. Já quem optar em comprar via e-commerce,
+              poderá clicar nos links com listas específicas para Amazon e Americanas.com.
+            </p>
+            <p>Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️</p>
+            <p>Agradecemos o carinho de coração!</p>
 
-            <p>Por isso, criamos esse site para interagir com nossos amigos e familiares.</p>
-            <p>Aqui vocês poderão nos presentear com fraldas virtuais de forma prática e segura. Pensamos em opções
-              diversas, para facilitar a vida de todos.</p>
-            <p>Ah...e não esqueça de deixar seu recadinho via WhatsApp ❤️</p>
-            <p>Agradecemos o carinho de coração</p>
-
-            <p class="text-right font-italic">Amanda, João Pedro e Maria Eduarda</p>
+            <p class="text-right">Amanda, João Pedro, Snow 🐶 e Maria Eduarda</p>
           </v-col>
         </v-row>
         <div class="secondaryC" style="margin: -16px; margin-top:10px; padding: 20px;">
@@ -63,8 +69,8 @@
               <span class="font-weight-bold d-block">
                 Preciso ter PicPay para comprar na Lojinha da Maria Eduarda?
               </span>
-              Sim. Caso não tenha, clique aqui e siga o passo a passo.
-              Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
+              Sim. Caso não tenha, <a :href="randomReferral" target="_blank">(clique aqui)</a> e
+              siga o passo a passo. Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
             </p>
             <p>
               <span class="font-weight-bold d-block">
@@ -106,7 +112,6 @@ export default {
     presentes: [
       {nome: 'Fraldas', icone: 'fralda.jpg', qtd: 0, valor: 50},
       {nome: 'Lenços', icone: 'lenco.jpg', qtd: 0, valor: 12},
-     // {nome: 'Pomada', icone: 'pomada.jpg', qtd: 0, valor: 35},
       {nome: 'Sabonete Líquido', icone: 'sabonete.jpg', qtd: 0, valor: 10},
     ],
   }),
@@ -117,17 +122,22 @@ export default {
     },
     linkPicpay() {
       return `https://picpay.me/jpedrojpedro/${this.total}`
-    }
+    },
+    randomReferral() {
+      let referrals = [
+              'http://www.picpay.com/convite?@TKJKKZ',
+              'http://www.picpay.com/convite?@TPQU61'
+      ]
+      return `${referrals[Math.floor(Math.random() * 2)]}`;
+    },
   },
 
   methods: {
     limparCarrinho() {
       this.presentes.forEach((i) => i.qtd = 0)
-    }
+    },
   }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
