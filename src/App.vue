@@ -27,10 +27,20 @@
             </p>
             <p>
               Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos
-              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na lojinha da
-              Maria Eduarda, utilizará o PicPay para realizar o pagamento. Já quem optar em comprar via e-commerce,
-              poderá clicar nos links com listas específicas para Amazon e Americanas.com.
+              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na <b>Lojinha Virtual da
+              Maria Eduarda</b>, utilizará a conta do PicPay para realizar o pagamento. Já quem optar em comprar via
+              <i>e-commerce</i>, criamos uma listinha de presentes na Amazon
+              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>. Caso queira comprar na loja de sua
+              preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
             </p>
+            <ul>
+              <li>Fraldas Pampers Premium Care - M ou G</li>
+              <li>Lenços Umedecidos Pampers Recém-Nascido</li>
+              <li>Sabonete Líquido Glicerinado Granado Bebê</li>
+              <li>Creme Preventivo de Assaduras Creamy Aloe Desitin</li>
+              <li>Creme de Assadura Vitaminado Preventivo 123 Mustela Bebê</li>
+            </ul>
+            <br/>
             <p>Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️</p>
             <p>Agradecemos o carinho de coração!</p>
 
@@ -42,7 +52,7 @@
             <v-col cols="12">
               <v-alert icon="mdi-human-baby-changing-table" color="primary">
                 <h3>
-                  Lojinha da Maria Eduarda
+                  Lojinha Virtual da Maria Eduarda
                 </h3>
                 <span>COM FRETE GRÁTIS!</span>
               </v-alert>
@@ -76,8 +86,8 @@
               <span class="font-weight-bold d-block">
                 Tem lista de presentes em sites conhecidos?
               </span>
-              Sim. Fizemos listas na Amazon <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a> e na
-              Americanas (clique aqui).
+              Sim. Fizemos uma lista de presentes na Amazon
+              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>.
             </p>
             <p>
               <span class="font-weight-bold d-block">
@@ -111,9 +121,12 @@ export default {
   },
   data: () => ({
     presentes: [
-      {nome: 'Fraldas', icone: 'fralda.jpg', qtd: 0, valor: 50},
-      {nome: 'Lenços', icone: 'lenco.jpg', qtd: 0, valor: 12},
-      {nome: 'Sabonete Líquido', icone: 'sabonete.jpg', qtd: 0, valor: 10},
+      {nome: 'Fraldas', icone: 'fralda-p.jpg', qtd: 0, valor: 49.99},
+      {nome: 'Fraldas', icone: 'fralda-m.jpg', qtd: 0, valor: 49.99},
+      {nome: 'Fraldas', icone: 'fralda-g.jpg', qtd: 0, valor: 49.99},
+      {nome: 'Lenços', icone: 'lenco.jpg', qtd: 0, valor: 11.99},
+      {nome: 'Pomada', icone: 'pomada.jpg', qtd: 0, valor: 29.99},
+      {nome: 'Sabonete Líquido', icone: 'sabonete.jpg', qtd: 0, valor: 13.59},
     ],
   }),
 
@@ -122,7 +135,11 @@ export default {
       return this.presentes.reduce((a, i) => a + (i.qtd * i.valor), 0)
     },
     linkPicpay() {
-      return `https://picpay.me/jpedrojpedro/${this.total}`
+      let accounts = [
+              'jpedrojpedro',
+              'amandammmonteiro'
+      ]
+      return `https://picpay.me/${accounts[Math.floor(Math.random() * 2)]}/${this.total}`
     },
     randomReferral() {
       let referrals = [
