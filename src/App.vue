@@ -76,7 +76,8 @@
               <span class="font-weight-bold d-block">
                 Tem lista de presentes em sites conhecidos?
               </span>
-              Sim. Fizemos listas na Amazon (clique aqui) e na Americanas (clique aqui).
+              Sim. Fizemos listas na Amazon <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a> e na
+              Americanas (clique aqui).
             </p>
             <p>
               <span class="font-weight-bold d-block">
