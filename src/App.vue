@@ -18,7 +18,8 @@
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
             <p>
               Essa longa quarentena pegou todos de surpresa, fazendo com que tivéssemos que nos adaptar e nos
-              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia.
+              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia. Ela já está com
+              <b>{{ pregnancyInWeeks }}</b> semanas!
             </p>
             <p>
               Gostaríamos muito de receber todos para celebração desse momento tão lindo! Porém, com tudo o
@@ -34,7 +35,7 @@
               preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
             </p>
             <ul>
-              <li>Fraldas Pampers Premium Care - M ou G</li>
+              <li>Fraldas Pampers Premium Care - P / M / G</li>
               <li>Lenços Umedecidos Pampers Recém-Nascido</li>
               <li>Sabonete Líquido Glicerinado Granado Bebê</li>
               <li>Creme Preventivo de Assaduras Creamy Aloe Desitin</li>
@@ -148,6 +149,12 @@ export default {
       ]
       return `${referrals[Math.floor(Math.random() * 2)]}`;
     },
+    pregnancyInWeeks() {
+      const dt_start = new Date("01/01/2020");
+      const dt_today = new Date();
+      const diff = dt_today.getTime() - dt_start.getTime()
+      return Math.floor((diff / (1000 * 3600 * 24)) / 7)
+    }
   },
 
   methods: {
