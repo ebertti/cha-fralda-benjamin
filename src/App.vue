@@ -18,8 +18,8 @@
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
             <p>
               Essa longa quarentena pegou todos de surpresa, fazendo com que tivéssemos que nos adaptar e nos
-              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia. Ela já está com
-              <b>{{ pregnancyInWeeks }}</b> semanas!
+              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia. Ela nasceu em <b>05.10.20</b>,
+              com <b>39 semanas e 6 dias</b> de gestação!
             </p>
             <p>
               Gostaríamos muito de receber todos para celebração desse momento tão lindo! Porém, com tudo o
