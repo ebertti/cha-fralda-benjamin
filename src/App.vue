@@ -4,8 +4,9 @@
       <v-container>
         <v-toolbar-title class="mx-n2">
           <v-icon class="mr-2">mdi-heart-outline</v-icon>
-          Chá de Fraldas da Maria Eduarda
+          Chá de Fraldas do Benjamin
         </v-toolbar-title>
+
       </v-container>
     </v-app-bar>
     <v-main class="primaryC">
@@ -18,8 +19,7 @@
             <p class="text-h4">Olá, queridos amigos e familiares!</p>
             <p>
               Essa longa quarentena pegou todos de surpresa, fazendo com que tivéssemos que nos adaptar e nos
-              reinventar. Maria Eduarda está crescendo e se desenvolvendo a cada dia. Ela nasceu em <b>05.10.20</b>,
-              com <b>39 semanas e 6 dias</b> de gestação!
+              reinventar. Benjamin está crescendo e se desenvolvendo a cada dia.
             </p>
             <p>
               Gostaríamos muito de receber todos para celebração desse momento tão lindo! Porém, com tudo o
@@ -28,8 +28,8 @@
             </p>
             <p>
               Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos
-              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na <b>Lojinha Virtual da
-              Maria Eduarda</b>, utilizará a conta do PicPay para realizar o pagamento. Já quem optar em comprar via
+              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na <b>Lojinha Virtual do
+              Benjamin</b>, utilizará a conta do PicPay para realizar o pagamento. Já quem optar em comprar via
               <i>e-commerce</i>, criamos uma listinha de presentes na Amazon
               <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>. Caso queira comprar na loja de sua
               preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
@@ -45,7 +45,7 @@
             <p>Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️</p>
             <p>Agradecemos o carinho de coração!</p>
 
-            <p class="text-right">Amanda, João Pedro, Snow 🐶 e Maria Eduarda</p>
+            <p class="text-right">Yamila, Rodrigo e Benjamin</p>
           </v-col>
         </v-row>
         <div class="secondaryC" style="margin: -16px; margin-top:10px; padding: 20px;">
@@ -53,7 +53,7 @@
             <v-col cols="12">
               <v-alert icon="mdi-human-baby-changing-table" color="primary">
                 <h3>
-                  Lojinha Virtual da Maria Eduarda
+                  Lojinha Virtual do Benjamin
                 </h3>
                 <span>COM FRETE GRÁTIS!</span>
               </v-alert>
@@ -78,7 +78,7 @@
             <h2 class="secondary2E--text text-center my-4"></h2>
             <p>
               <span class="font-weight-bold d-block">
-                Preciso ter PicPay para comprar na Lojinha da Maria Eduarda?
+                Preciso ter PicPay para comprar na Lojinha da Benjamin?
               </span>
               Sim. Caso não tenha, <a :href="randomReferral" target="_blank">(clique aqui)</a> e
               siga o passo a passo. Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
@@ -95,7 +95,7 @@
                 Quero enviar os presentes direto para vocês. Como faço?
               </span>
               Pode deixar aqui em casa 🙂
-              Envie uma mensagem <a href="https://bit.ly/33Txbhx" target="_blank">(clique aqui)</a> e passamos os
+              Envie uma mensagem <a href="https://bit.ly/34jyVzr" target="_blank">(clique aqui)</a> e passamos os
               detalhes.
             </p>
           </v-col>
@@ -149,12 +149,6 @@ export default {
       ]
       return `${referrals[Math.floor(Math.random() * 2)]}`;
     },
-    pregnancyInWeeks() {
-      const dt_start = new Date("01/01/2020");
-      const dt_today = new Date();
-      const diff = dt_today.getTime() - dt_start.getTime()
-      return Math.floor((diff / (1000 * 3600 * 24)) / 7)
-    }
   },
 
   methods: {
