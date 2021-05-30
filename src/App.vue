@@ -40,7 +40,7 @@
               <li>Creme de Assadura Vitaminado Preventivo 123 Mustela Bebê</li>
             </ul>
             <br/>
-            <p>Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️</p>
+            <p>Ah! Não se esqueça de deixar um recadinho via <a href="https://bit.ly/3yXXkZF" target="_blank">WhatsApp</a> ❤️</p>
             <p>Agradecemos o carinho de coração!</p>
 
             <p class="text-right">Yamila, Rodrigo e Benjamin</p>
@@ -93,7 +93,7 @@
                 Quero enviar os presentes direto para vocês. Como faço?
               </span>
               Pode deixar aqui em casa 🙂
-              Envie uma mensagem <a href="https://bit.ly/34jyVzr" target="_blank">(clique aqui)</a> e passamos os
+              Envie uma mensagem <a href="https://bit.ly/3yXXkZF" target="_blank">(clique aqui)</a> e passamos os
               detalhes.
             </p>
           </v-col>
