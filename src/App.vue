@@ -30,9 +30,7 @@
               Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos
               em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na <b>Lojinha Virtual do
               Benjamin</b>, utilizará a conta do PicPay para realizar o pagamento. Já quem optar em comprar via
-              <i>e-commerce</i>, criamos uma listinha de presentes na Amazon
-              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>. Caso queira comprar na loja de sua
-              preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
+              <i>e-commerce</i>, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
             </p>
             <ul>
               <li>Fraldas Pampers Premium Care - P / M / G</li>
@@ -80,7 +78,7 @@
               <span class="font-weight-bold d-block">
                 Preciso ter PicPay para comprar na Lojinha da Benjamin?
               </span>
-              Sim. Caso não tenha, <a :href="randomReferral" target="_blank">(clique aqui)</a> e
+              Sim. Caso não tenha, <a href="http://www.picpay.com/convite?1ET1SZ" target="_blank">(clique aqui)</a> e
               siga o passo a passo. Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
             </p>
             <p>
@@ -136,18 +134,7 @@ export default {
       return this.presentes.reduce((a, i) => a + (i.qtd * i.valor), 0)
     },
     linkPicpay() {
-      let accounts = [
-              'jpedrojpedro',
-              'amandammmonteiro'
-      ]
-      return `https://picpay.me/${accounts[Math.floor(Math.random() * 2)]}/${this.total}`
-    },
-    randomReferral() {
-      let referrals = [
-              'http://www.picpay.com/convite?@TKJKKZ',
-              'http://www.picpay.com/convite?@TPQU61'
-      ]
-      return `${referrals[Math.floor(Math.random() * 2)]}`;
+      return `https://picpay.me/rodrigo.sobral12/${this.total}`
     },
   },
 
