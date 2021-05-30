@@ -81,13 +81,13 @@
               Sim. Caso não tenha, <a href="http://www.picpay.com/convite?1ET1SZ" target="_blank">(clique aqui)</a> e
               siga o passo a passo. Vale dizer que ao efetuar a primeira compra, ganha-se R$ 10,00.
             </p>
-            <p>
-              <span class="font-weight-bold d-block">
-                Tem lista de presentes em sites conhecidos?
-              </span>
-              Sim. Fizemos uma lista de presentes na Amazon
-              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>.
-            </p>
+<!--            <p>-->
+<!--              <span class="font-weight-bold d-block">-->
+<!--                Tem lista de presentes em sites conhecidos?-->
+<!--              </span>-->
+<!--              Sim. Fizemos uma lista de presentes na Amazon-->
+<!--              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>.-->
+<!--            </p>-->
             <p>
               <span class="font-weight-bold d-block">
                 Quero enviar os presentes direto para vocês. Como faço?

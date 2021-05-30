@@ -32,7 +32,7 @@ export default new Vuetify({
         secondaryA : "#EAAFFF",	/* Main Secondary color (1) */
         secondaryC : "#e9ebf1",
         secondaryD : "#DE80FF",
-        secondaryE : "#D154FD",
+        secondaryE : "#11c76f",
 
         secondary2A : "#FFB5AC",	/* Main Secondary color (2) */
         secondary2C : "#C5CAE9",
