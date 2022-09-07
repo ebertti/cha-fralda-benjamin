@@ -5,11 +5,11 @@
     <span class="d-inline-block text-body-1 title--text font-weight-bold mr-2" v-if="presente.qtd">{{ presente.qtd }}x</span>
     <span class="d-inline-block text-body-1 text--text mb-3">{{ presente.valor | moeda }}</span>
     <div class="d-flex">
-      <v-btn class="flex-grow-1 title--text font-weight-bold mr-2" color="button" elevation="0" @click="adicionar">
-        <v-icon>mdi-plus</v-icon>
-      </v-btn>
-      <v-btn class="flex-grow-1 title--text font-weight-bold" color="button" elevation="0" @click="remover" v-if="this.presente.qtd > 0">
+      <v-btn class="flex-grow-1 title--text font-weight-bold mr-2" color="button_minus" elevation="0" @click="remover" v-if="this.presente.qtd > 0">
         <v-icon>mdi-minus</v-icon>
+      </v-btn>
+      <v-btn class="flex-grow-1 title--text font-weight-bold" color="button_plus" elevation="0" @click="adicionar">
+        <v-icon>mdi-plus</v-icon>
       </v-btn>
     </div>
   </v-card>
@@ -26,7 +26,7 @@ export default {
       this.presente.qtd++
     },
     remover(){
-      if(this.presente.qtd != 0){
+      if(this.presente.qtd !== 0){
         this.presente.qtd--
       }
     }

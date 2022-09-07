@@ -18,10 +18,12 @@ export default new Vuetify({
     },
     themes: {
       light: {
-        title: '#E8697F',
+        title: '#e8697f',
         text: '#998195',
         button: '#F7D88C',
-        background: '#F8F4F0',
+        button_plus: '#BDE7BD',
+        button_minus: '#FFD5D4',
+        background: '#f8f4f0',
         secondary: '#A24A59',
         nubank: '#830AD1',
         picpay: '#00C36F',
