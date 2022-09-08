@@ -22,7 +22,7 @@
               Abaixo</a>
           </v-col>
           <v-col cols="12" sm="6">
-            <v-img class="mx-auto" src="mariana.png" max-width="320px"></v-img>
+            <v-img class="mx-auto" src="main_art.jpg" max-width="320px"></v-img>
           </v-col>
         </v-row>
       </v-container>
