@@ -4,22 +4,31 @@
       <v-container>
         <v-row class="align-center">
           <v-col cols="12" sm="6" class="mb-5 mb-sm-0">
-            <span class="d-block text-h2 title--text mb-5">Oi gente,<br/>já já estamos chegando!!!</span>
+            <span class="d-block text-h2 title--text mb-5">Olá, queridos amigos e familiares!</span>
             <span class="d-block text-subtitle-1 text--text mb-5">
             <p>
-              Se você chegou aqui, é porque nossa mamãe e papai mandou para você esse lindo site
-            </p>
-            <p>
-              Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos
-              em opções diversas para facilitar a vida de todos. Quem optar em comprar direto na <b>Lojinha Virtual da
-              Maria Eduarda</b>, utilizará a conta do PicPay para realizar o pagamento. Já quem optar em comprar via
-              <i>e-commerce</i>, criamos uma listinha de presentes na Amazon
-              <a href="https://amzn.to/3h64i5h" target="_blank">(clique aqui)</a>. Caso queira comprar na loja de sua
-              preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
+              Decidimos aumentar a nossa família e tivemos uma surpresa maravilhosa, com a vinda do Guilherme e do Henrique. Duplinha dinâmica já muito amada!
+              Eles estão crescendo e se desenvolvendo a cada dia. Amanda está com 36 semanas e 6 dias de gestação! A previsão é completarmos 38 semanas (gravidez gemelar é mais curtinha #FaltaPouco).
+            </p><p>
+              Para celebrarmos esse presente duplo, pensamos em criar esse site para interagir com nossos amigos e familiares.
+            </p><p>
+              Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos em opções diversas para facilitar a vida de todos. A compra pode ser realizada diretamente na Lojinha Virtual do Gui e do Kike, utilizando o meio de pagamento PIX. Caso queira comprar na loja de sua preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
+            </p><p>
+              Fraldas Pampers Premium Care - P / M / G
+              </br>Lenços Umedecidos Pampers Recém Nascido
+              </br>Sabonete Líquido Recém Nascido, Johnson's Baby
+              </br>Bepantol Baby Creme Preventivo de Assaduras para Bebês
+            </p><p>
+              Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️
+            </p><p>
+              Agradecemos o carinho de coração!
+            </p><p>
+              Amanda, João Pedro, Maria Eduarda, Snow 🐶, Guilherme e Henrique
             </p>
             </span>
-            <a class="d-block text-button title--text font-weight-bold text-uppercase mb-0" href="">Veja Minha Listinha
-              Abaixo</a>
+            <a class="d-block text-button title--text font-weight-bold text-uppercase mb-0" href="">
+              Veja Minha Listinha Abaixo
+            </a>
           </v-col>
           <v-col cols="12" sm="6">
             <v-img class="mx-auto" src="main_art.jpg" max-width="320px"></v-img>
