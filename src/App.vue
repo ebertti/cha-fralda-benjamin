@@ -15,9 +15,9 @@
               Aqui vocês poderão nos presentear com fraldas, lenços e sabonetes de forma prática e segura. Pensamos em opções diversas para facilitar a vida de todos. A compra pode ser realizada diretamente na Lojinha Virtual do Gui e do Kike, utilizando o meio de pagamento PIX. Caso queira comprar na loja de sua preferência, tem uma listinha aqui embaixo com sugestões de presentes 👇🏻
             </p><p>
               Fraldas Pampers Premium Care - P / M / G
-              </br>Lenços Umedecidos Pampers Recém Nascido
-              </br>Sabonete Líquido Recém Nascido, Johnson's Baby
-              </br>Bepantol Baby Creme Preventivo de Assaduras para Bebês
+              <br/>Lenços Umedecidos Pampers Recém Nascido
+              <br/>Sabonete Líquido Recém Nascido, Johnson's Baby
+              <br/>Bepantol Baby Creme Preventivo de Assaduras para Bebês
             </p><p>
               Ah! Não se esqueça de deixar um recadinho via WhatsApp ❤️
             </p><p>
